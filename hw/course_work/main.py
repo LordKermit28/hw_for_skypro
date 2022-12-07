@@ -45,6 +45,7 @@ while user.get_lenth_used_words() < question.get_length_subwords():
 
 """Выдает статистику"""
 print(f" Игра завершена, вы угадали {user.get_lenth_used_words()} слов!")
+print("До скорого")
 
 
 
