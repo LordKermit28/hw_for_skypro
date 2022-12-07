@@ -44,7 +44,7 @@ while user.get_lenth_used_words() < question.get_length_subwords():
         print(f"Ответ не подходит")
 
 """Выдает статистику"""
-print(f" Игра завершена, вы угадали {user.get_lenth_used_words()} слов! Поздравляем!")
+print(f" Игра завершена, вы угадали {user.get_lenth_used_words()} слов!")
 
 
 
