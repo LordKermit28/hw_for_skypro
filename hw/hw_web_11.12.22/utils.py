@@ -26,4 +26,4 @@ def get_candidates_by_skill(skill):
     for candidate in load_candidates():
         if skill.lower() in candidate['skills'].lower().split(', '):
             candidates.append(candidate)
-    return candidate
+    return candidates
